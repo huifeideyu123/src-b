@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{16CB0152-FCC3-4EE5-AB61-8EAE1AC398ED}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>fgrun</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\FlightGear0.5\fgrun-release-3.4.0-build\src\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fgrun.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fgrun</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\FlightGear0.5\fgrun-release-3.4.0-build\src\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fgrun.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fgrun</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\FlightGear0.5\fgrun-release-3.4.0-build\src\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">fgrun.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">fgrun</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\FlightGear0.5\fgrun-release-3.4.0-build\src\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">fgrun.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">fgrun</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\FlightGear0.5\fgrun-release-3.4.0-build\src;F:\FlightGear0.5\fgrun-release-3.4.0\src;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\include;F:\FlightGear0.5\boost_1_44_0;F:\FlightGear0.5\3rdParty\include;F:\FlightGear0.5\install\msvc100\SimGear\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;__CRT_NONSTDC_NO_WARNINGS;_REENTRANT;ENABLE_NLS;_DEBUG;HAVE_CONFIG_H;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;__CRT_NONSTDC_NO_WARNINGS;_REENTRANT;ENABLE_NLS;_DEBUG;HAVE_CONFIG_H;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\FlightGear0.5\fgrun-release-3.4.0-build\src;F:\FlightGear0.5\fgrun-release-3.4.0\src;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\include;F:\FlightGear0.5\boost_1_44_0;F:\FlightGear0.5\3rdParty\include;F:\FlightGear0.5\install\msvc100\SimGear\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\FlightGear0.5\fgrun-release-3.4.0-build\src;F:\FlightGear0.5\fgrun-release-3.4.0\src;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\include;F:\FlightGear0.5\boost_1_44_0;F:\FlightGear0.5\3rdParty\include;F:\FlightGear0.5\install\msvc100\SimGear\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Debug\Wizardd.lib;Debug\Advancedd.lib;ws2_32.lib;F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearScene.lib;F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearCore.lib;F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearCore.lib;F:\FlightGear0.5\3rdParty\lib\zlib.lib;ws2_32.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgText.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgDB.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgParticle.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgUtil.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgViewer.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgGA.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osg.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\OpenThreads.lib;F:\FlightGear0.5\3rdParty\lib\fltkimages.lib;F:\FlightGear0.5\3rdParty\lib\fltkforms.lib;F:\FlightGear0.5\3rdParty\lib\fltkgl.lib;opengl32.lib;F:\FlightGear0.5\3rdParty\lib\fltk.lib;wsock32.lib;comctl32.lib;F:\FlightGear0.5\3rdParty\lib\zlib.lib;F:\FlightGear0.5\3rdParty\lib\intl.lib;winmm.lib;glu32.lib;opengl32.lib;ws2_32.lib;F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearScene.lib;F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearCore.lib;F:\FlightGear0.5\3rdParty\lib\zlib.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgText.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgDB.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgParticle.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgUtil.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgViewer.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgGA.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osg.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\OpenThreads.lib;F:\FlightGear0.5\3rdParty\lib\fltkimages.lib;F:\FlightGear0.5\3rdParty\lib\fltkforms.lib;F:\FlightGear0.5\3rdParty\lib\fltkgl.lib;F:\FlightGear0.5\3rdParty\lib\fltk.lib;wsock32.lib;comctl32.lib;F:\FlightGear0.5\3rdParty\lib\intl.lib;winmm.lib;glu32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ForceFileOutput>MultiplyDefinedSymbolOnly</ForceFileOutput>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/FlightGear0.5/fgrun-release-3.4.0-build/src/Debug/fgrun.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/FlightGear0.5/fgrun-release-3.4.0-build/src/Debug/fgrun.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\FlightGear0.5\fgrun-release-3.4.0-build\src;F:\FlightGear0.5\fgrun-release-3.4.0\src;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\include;F:\FlightGear0.5\boost_1_44_0;F:\FlightGear0.5\3rdParty\include;F:\FlightGear0.5\install\msvc100\SimGear\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;__CRT_NONSTDC_NO_WARNINGS;_REENTRANT;ENABLE_NLS;NDEBUG;HAVE_CONFIG_H;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;__CRT_NONSTDC_NO_WARNINGS;_REENTRANT;ENABLE_NLS;NDEBUG;HAVE_CONFIG_H;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\FlightGear0.5\fgrun-release-3.4.0-build\src;F:\FlightGear0.5\fgrun-release-3.4.0\src;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\include;F:\FlightGear0.5\boost_1_44_0;F:\FlightGear0.5\3rdParty\include;F:\FlightGear0.5\install\msvc100\SimGear\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\FlightGear0.5\fgrun-release-3.4.0-build\src;F:\FlightGear0.5\fgrun-release-3.4.0\src;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\include;F:\FlightGear0.5\boost_1_44_0;F:\FlightGear0.5\3rdParty\include;F:\FlightGear0.5\install\msvc100\SimGear\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Release\Wizard.lib;Release\Advanced.lib;ws2_32.lib;F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearScene.lib;F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearCore.lib;F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearCore.lib;F:\FlightGear0.5\3rdParty\lib\zlib.lib;ws2_32.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgText.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgDB.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgParticle.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgUtil.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgViewer.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgGA.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osg.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\OpenThreads.lib;F:\FlightGear0.5\3rdParty\lib\fltkimages.lib;F:\FlightGear0.5\3rdParty\lib\fltkforms.lib;F:\FlightGear0.5\3rdParty\lib\fltkgl.lib;opengl32.lib;F:\FlightGear0.5\3rdParty\lib\fltk.lib;wsock32.lib;comctl32.lib;F:\FlightGear0.5\3rdParty\lib\zlib.lib;F:\FlightGear0.5\3rdParty\lib\intl.lib;winmm.lib;glu32.lib;opengl32.lib;ws2_32.lib;F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearScene.lib;F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearCore.lib;F:\FlightGear0.5\3rdParty\lib\zlib.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgText.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgDB.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgParticle.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgUtil.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgViewer.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgGA.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osg.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\OpenThreads.lib;F:\FlightGear0.5\3rdParty\lib\fltkimages.lib;F:\FlightGear0.5\3rdParty\lib\fltkforms.lib;F:\FlightGear0.5\3rdParty\lib\fltkgl.lib;F:\FlightGear0.5\3rdParty\lib\fltk.lib;wsock32.lib;comctl32.lib;F:\FlightGear0.5\3rdParty\lib\intl.lib;winmm.lib;glu32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ForceFileOutput>MultiplyDefinedSymbolOnly</ForceFileOutput>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/FlightGear0.5/fgrun-release-3.4.0-build/src/Release/fgrun.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/FlightGear0.5/fgrun-release-3.4.0-build/src/Release/fgrun.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\FlightGear0.5\fgrun-release-3.4.0-build\src;F:\FlightGear0.5\fgrun-release-3.4.0\src;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\include;F:\FlightGear0.5\boost_1_44_0;F:\FlightGear0.5\3rdParty\include;F:\FlightGear0.5\install\msvc100\SimGear\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;__CRT_NONSTDC_NO_WARNINGS;_REENTRANT;ENABLE_NLS;NDEBUG;HAVE_CONFIG_H;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;__CRT_NONSTDC_NO_WARNINGS;_REENTRANT;ENABLE_NLS;NDEBUG;HAVE_CONFIG_H;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\FlightGear0.5\fgrun-release-3.4.0-build\src;F:\FlightGear0.5\fgrun-release-3.4.0\src;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\include;F:\FlightGear0.5\boost_1_44_0;F:\FlightGear0.5\3rdParty\include;F:\FlightGear0.5\install\msvc100\SimGear\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\FlightGear0.5\fgrun-release-3.4.0-build\src;F:\FlightGear0.5\fgrun-release-3.4.0\src;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\include;F:\FlightGear0.5\boost_1_44_0;F:\FlightGear0.5\3rdParty\include;F:\FlightGear0.5\install\msvc100\SimGear\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;MinSizeRel\Wizard.lib;MinSizeRel\Advanced.lib;ws2_32.lib;F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearScene.lib;F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearCore.lib;F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearCore.lib;F:\FlightGear0.5\3rdParty\lib\zlib.lib;ws2_32.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgText.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgDB.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgParticle.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgUtil.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgViewer.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgGA.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osg.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\OpenThreads.lib;F:\FlightGear0.5\3rdParty\lib\fltkimages.lib;F:\FlightGear0.5\3rdParty\lib\fltkforms.lib;F:\FlightGear0.5\3rdParty\lib\fltkgl.lib;opengl32.lib;F:\FlightGear0.5\3rdParty\lib\fltk.lib;wsock32.lib;comctl32.lib;F:\FlightGear0.5\3rdParty\lib\zlib.lib;F:\FlightGear0.5\3rdParty\lib\intl.lib;winmm.lib;glu32.lib;opengl32.lib;ws2_32.lib;F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearScene.lib;F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearCore.lib;F:\FlightGear0.5\3rdParty\lib\zlib.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgText.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgDB.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgParticle.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgUtil.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgViewer.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgGA.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osg.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\OpenThreads.lib;F:\FlightGear0.5\3rdParty\lib\fltkimages.lib;F:\FlightGear0.5\3rdParty\lib\fltkforms.lib;F:\FlightGear0.5\3rdParty\lib\fltkgl.lib;F:\FlightGear0.5\3rdParty\lib\fltk.lib;wsock32.lib;comctl32.lib;F:\FlightGear0.5\3rdParty\lib\intl.lib;winmm.lib;glu32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ForceFileOutput>MultiplyDefinedSymbolOnly</ForceFileOutput>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/FlightGear0.5/fgrun-release-3.4.0-build/src/MinSizeRel/fgrun.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/FlightGear0.5/fgrun-release-3.4.0-build/src/MinSizeRel/fgrun.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\FlightGear0.5\fgrun-release-3.4.0-build\src;F:\FlightGear0.5\fgrun-release-3.4.0\src;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\include;F:\FlightGear0.5\boost_1_44_0;F:\FlightGear0.5\3rdParty\include;F:\FlightGear0.5\install\msvc100\SimGear\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;__CRT_NONSTDC_NO_WARNINGS;_REENTRANT;ENABLE_NLS;NDEBUG;HAVE_CONFIG_H;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;__CRT_NONSTDC_NO_WARNINGS;_REENTRANT;ENABLE_NLS;NDEBUG;HAVE_CONFIG_H;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\FlightGear0.5\fgrun-release-3.4.0-build\src;F:\FlightGear0.5\fgrun-release-3.4.0\src;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\include;F:\FlightGear0.5\boost_1_44_0;F:\FlightGear0.5\3rdParty\include;F:\FlightGear0.5\install\msvc100\SimGear\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\FlightGear0.5\fgrun-release-3.4.0-build\src;F:\FlightGear0.5\fgrun-release-3.4.0\src;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\include;F:\FlightGear0.5\boost_1_44_0;F:\FlightGear0.5\3rdParty\include;F:\FlightGear0.5\install\msvc100\SimGear\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;RelWithDebInfo\Wizard.lib;RelWithDebInfo\Advanced.lib;ws2_32.lib;F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearScene.lib;F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearCore.lib;F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearCore.lib;F:\FlightGear0.5\3rdParty\lib\zlib.lib;ws2_32.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgText.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgDB.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgParticle.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgUtil.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgViewer.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgGA.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osg.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\OpenThreads.lib;F:\FlightGear0.5\3rdParty\lib\fltkimages.lib;F:\FlightGear0.5\3rdParty\lib\fltkforms.lib;F:\FlightGear0.5\3rdParty\lib\fltkgl.lib;opengl32.lib;F:\FlightGear0.5\3rdParty\lib\fltk.lib;wsock32.lib;comctl32.lib;F:\FlightGear0.5\3rdParty\lib\zlib.lib;F:\FlightGear0.5\3rdParty\lib\intl.lib;winmm.lib;glu32.lib;opengl32.lib;ws2_32.lib;F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearScene.lib;F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearCore.lib;F:\FlightGear0.5\3rdParty\lib\zlib.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgText.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgDB.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgParticle.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgUtil.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgViewer.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgGA.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osg.lib;F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\OpenThreads.lib;F:\FlightGear0.5\3rdParty\lib\fltkimages.lib;F:\FlightGear0.5\3rdParty\lib\fltkforms.lib;F:\FlightGear0.5\3rdParty\lib\fltkgl.lib;F:\FlightGear0.5\3rdParty\lib\fltk.lib;wsock32.lib;comctl32.lib;F:\FlightGear0.5\3rdParty\lib\intl.lib;winmm.lib;glu32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ForceFileOutput>MultiplyDefinedSymbolOnly</ForceFileOutput>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/FlightGear0.5/fgrun-release-3.4.0-build/src/RelWithDebInfo/fgrun.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/FlightGear0.5/fgrun-release-3.4.0-build/src/RelWithDebInfo/fgrun.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\fgrun-release-3.4.0\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule F:/FlightGear0.5/fgrun-release-3.4.0/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/FlightGear0.5/fgrun-release-3.4.0 -BF:/FlightGear0.5/fgrun-release-3.4.0-build --check-stamp-file F:\FlightGear0.5\fgrun-release-3.4.0-build\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:/FlightGear0.5/fgrun-release-3.4.0/src/CMakeLists.txt;F:\FlightGear0.5\fgrun-release-3.4.0\src\CMakeLists.txt;F:\FlightGear0.5\fgrun-release-3.4.0\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\FlightGear0.5\fgrun-release-3.4.0-build\src\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule F:/FlightGear0.5/fgrun-release-3.4.0/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/FlightGear0.5/fgrun-release-3.4.0 -BF:/FlightGear0.5/fgrun-release-3.4.0-build --check-stamp-file F:\FlightGear0.5\fgrun-release-3.4.0-build\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:/FlightGear0.5/fgrun-release-3.4.0/src/CMakeLists.txt;F:\FlightGear0.5\fgrun-release-3.4.0\src\CMakeLists.txt;F:\FlightGear0.5\fgrun-release-3.4.0\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\FlightGear0.5\fgrun-release-3.4.0-build\src\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule F:/FlightGear0.5/fgrun-release-3.4.0/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/FlightGear0.5/fgrun-release-3.4.0 -BF:/FlightGear0.5/fgrun-release-3.4.0-build --check-stamp-file F:\FlightGear0.5\fgrun-release-3.4.0-build\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:/FlightGear0.5/fgrun-release-3.4.0/src/CMakeLists.txt;F:\FlightGear0.5\fgrun-release-3.4.0\src\CMakeLists.txt;F:\FlightGear0.5\fgrun-release-3.4.0\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\FlightGear0.5\fgrun-release-3.4.0-build\src\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule F:/FlightGear0.5/fgrun-release-3.4.0/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/FlightGear0.5/fgrun-release-3.4.0 -BF:/FlightGear0.5/fgrun-release-3.4.0-build --check-stamp-file F:\FlightGear0.5\fgrun-release-3.4.0-build\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:/FlightGear0.5/fgrun-release-3.4.0/src/CMakeLists.txt;F:\FlightGear0.5\fgrun-release-3.4.0\src\CMakeLists.txt;F:\FlightGear0.5\fgrun-release-3.4.0\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\FlightGear0.5\fgrun-release-3.4.0-build\src\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\fgrun-release-3.4.0\src\AirportBrowser.h" />
+    <ClInclude Include="..\..\fgrun-release-3.4.0\src\AirportTable.h" />
+    <ClInclude Include="..\..\fgrun-release-3.4.0\src\Fl_OSG.h" />
+    <ClInclude Include="..\..\fgrun-release-3.4.0\src\logwin.h" />
+    <ClInclude Include="..\..\fgrun-release-3.4.0\src\parkingloader.h" />
+    <ClInclude Include="..\..\fgrun-release-3.4.0\src\util.h" />
+    <ClInclude Include="..\..\fgrun-release-3.4.0\src\os_win32.h" />
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\wizard_funcs.cxx"  />
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\advanced_funcs.cxx"  />
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\AirportBrowser.cxx"  />
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\AirportTable.cxx"  />
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\Fl_Table.cxx"  />
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\Fl_Table_Row.cxx"  />
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\Fl_OSG.cxx"  />
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\Fl_Heading_Dial.cxx"  />
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\main.cxx"  />
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\io.cxx"  />
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\fgfsrc.cxx"  />
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\logwin.cxx"  />
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\parkingloader.cxx"  />
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\settings.cxx"  />
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\util.cxx"  />
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\run_win32.cxx"  />
+    <ResourceCompile Include="..\..\fgrun-release-3.4.0\src\fgrun.rc"  />
+    <None Include="..\..\fgrun-release-3.4.0\src\Fl_Table.H" />
+    <None Include="..\..\fgrun-release-3.4.0\src\Fl_Table_Row.H" />
+    <None Include="..\..\fgrun-release-3.4.0\src\Fl_Heading_Dial.H" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:/FlightGear0.5/fgrun-release-3.4.0-build/ZERO_CHECK.vcxproj">
+      <Project>39ABFEE3-FECF-49E0-BD95-7572787EF20E</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/FlightGear0.5/fgrun-release-3.4.0-build/src/Advanced.vcxproj">
+      <Project>666A3067-C4B2-47F9-92A9-37F4372D17B0</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/FlightGear0.5/fgrun-release-3.4.0-build/src/Wizard.vcxproj">
+      <Project>422E0A16-AAA4-40ED-AD0C-365081C2C39D</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\wizard_funcs.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\advanced_funcs.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\AirportBrowser.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\AirportTable.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\Fl_Table.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\Fl_Table_Row.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\Fl_OSG.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\Fl_Heading_Dial.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\main.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\io.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\fgfsrc.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\logwin.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\parkingloader.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\settings.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\util.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fgrun-release-3.4.0\src\run_win32.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\fgrun-release-3.4.0\src\AirportBrowser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fgrun-release-3.4.0\src\AirportTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fgrun-release-3.4.0\src\Fl_OSG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fgrun-release-3.4.0\src\logwin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fgrun-release-3.4.0\src\parkingloader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fgrun-release-3.4.0\src\util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fgrun-release-3.4.0\src\os_win32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\fgrun-release-3.4.0\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\fgrun-release-3.4.0\src\Fl_Table.H" />
+    <None Include="..\..\fgrun-release-3.4.0\src\Fl_Table_Row.H" />
+    <None Include="..\..\fgrun-release-3.4.0\src\Fl_Heading_Dial.H" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\fgrun-release-3.4.0\src\fgrun.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D9991C80-B080-456B-A061-9A109B2FE052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9243FE70-A4C1-4FC3-9332-0B6153124874}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

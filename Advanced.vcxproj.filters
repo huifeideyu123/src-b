@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="advanced.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\fgrun-release-3.4.0\src\CMakeLists.txt" />
+    <CustomBuild Include="..\CMakeFiles\b8515d89212f43f8c24c58e389e65694\advanced.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\b8515d89212f43f8c24c58e389e65694\advanced.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D9991C80-B080-456B-A061-9A109B2FE052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B9FDA774-4AD1-4CB2-A4AB-293E7B1C9CC9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
