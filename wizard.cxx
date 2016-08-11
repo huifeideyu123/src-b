@@ -783,7 +783,7 @@ Wizard::Wizard() : prefs( Fl_Preferences::USER, "flightgear.org", "fgrun" ), sys
       { page[3] = new Fl_Group(0, 0, 800, 560);
         page[3]->hide();
         { Fl_Group* o = new Fl_Group(0, 525, 800, 25);
-          { pGB = "先进的…";
+          { pGB = "先进的";
 		    pUTF8 = G2U(pGB);
 			Fl_Button* o = new Fl_Button(685, 525, 110, 25,pUTF8);
 			//Fl_Button* o = new Fl_Button(685, 525, 110, 25, _("Advanced..."));

@@ -1,0 +1,146 @@
+﻿生成启动时间为 2016/8/4 10:27:33。
+     1>项目“F:\FlightGear0.5\fgrun-release-3.4.0-build\src\fgrun.vcxproj”在节点 4 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“fgrun.dir\Debug\fgrun.unsuccessfulbuild”执行 Touch 任务。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"F:\FlightGear0.5\fgrun-release-3.4.0-build\src" /I"F:\FlightGear0.5\fgrun-release-3.4.0\src" /IF:\FlightGear0.5\install\msvc100\OpenSceneGraph\include /IF:\FlightGear0.5\boost_1_44_0 /IF:\FlightGear0.5\3rdParty\include /IF:\FlightGear0.5\install\msvc100\SimGear\include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D NOMINMAX /D _USE_MATH_DEFINES /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D __CRT_NONSTDC_NO_WARNINGS /D _REENTRANT /D ENABLE_NLS /D _DEBUG /D HAVE_CONFIG_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"fgrun.dir\Debug\\" /Fd"fgrun.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\fgrun-release-3.4.0\src\advanced_funcs.cxx" "..\..\fgrun-release-3.4.0\src\fgfsrc.cxx" "..\..\fgrun-release-3.4.0\src\io.cxx" "..\..\fgrun-release-3.4.0\src\main.cxx" "..\..\fgrun-release-3.4.0\src\run_win32.cxx" "..\..\fgrun-release-3.4.0\src\settings.cxx" "..\..\fgrun-release-3.4.0\src\wizard_funcs.cxx"
+         advanced_funcs.cxx
+         fgfsrc.cxx
+         io.cxx
+     1>..\..\fgrun-release-3.4.0\src\io.cxx(117): warning C4018: “>”: 有符号/无符号不匹配
+     1>..\..\fgrun-release-3.4.0\src\io.cxx(121): warning C4018: “>”: 有符号/无符号不匹配
+         main.cxx
+         run_win32.cxx
+         settings.cxx
+         wizard_funcs.cxx
+         正在生成代码...
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\FlightGear0.5\fgrun-release-3.4.0-build\src\Debug\fgrun.exe" /INCREMENTAL /NOLOGO /FORCE:MULTIPLE kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib Debug\Wizardd.lib Debug\Advancedd.lib ws2_32.lib F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearScene.lib F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearCore.lib F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearCore.lib F:\FlightGear0.5\3rdParty\lib\zlib.lib ws2_32.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgText.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgDB.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgParticle.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgUtil.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgViewer.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgGA.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osg.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\OpenThreads.lib F:\FlightGear0.5\3rdParty\lib\fltkimages.lib F:\FlightGear0.5\3rdParty\lib\fltkforms.lib F:\FlightGear0.5\3rdParty\lib\fltkgl.lib opengl32.lib F:\FlightGear0.5\3rdParty\lib\fltk.lib wsock32.lib comctl32.lib F:\FlightGear0.5\3rdParty\lib\zlib.lib F:\FlightGear0.5\3rdParty\lib\intl.lib winmm.lib glu32.lib opengl32.lib ws2_32.lib F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearScene.lib F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearCore.lib F:\FlightGear0.5\3rdParty\lib\zlib.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgText.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgDB.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgParticle.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgUtil.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgViewer.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgGA.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osg.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\OpenThreads.lib F:\FlightGear0.5\3rdParty\lib\fltkimages.lib F:\FlightGear0.5\3rdParty\lib\fltkforms.lib F:\FlightGear0.5\3rdParty\lib\fltkgl.lib F:\FlightGear0.5\3rdParty\lib\fltk.lib wsock32.lib comctl32.lib F:\FlightGear0.5\3rdParty\lib\intl.lib winmm.lib glu32.lib /MANIFEST /ManifestFile:"fgrun.dir\Debug\fgrun.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:/FlightGear0.5/fgrun-release-3.4.0-build/src/Debug/fgrun.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/FlightGear0.5/fgrun-release-3.4.0-build/src/Debug/fgrun.lib" /MACHINE:X86 fgrun.dir\Debug\fgrun.res
+         fgrun.dir\Debug\fgrun.exe.embed.manifest.res
+         fgrun.dir\Debug\wizard_funcs.obj
+         fgrun.dir\Debug\advanced_funcs.obj
+         fgrun.dir\Debug\AirportBrowser.obj
+         fgrun.dir\Debug\AirportTable.obj
+         fgrun.dir\Debug\Fl_Table.obj
+         fgrun.dir\Debug\Fl_Table_Row.obj
+         fgrun.dir\Debug\Fl_OSG.obj
+         fgrun.dir\Debug\Fl_Heading_Dial.obj
+         fgrun.dir\Debug\main.obj
+         fgrun.dir\Debug\io.obj
+         fgrun.dir\Debug\fgfsrc.obj
+         fgrun.dir\Debug\logwin.obj
+         fgrun.dir\Debug\parkingloader.obj
+         fgrun.dir\Debug\settings.obj
+         fgrun.dir\Debug\util.obj
+         fgrun.dir\Debug\run_win32.obj  /machine:X86 /debug 
+     1>LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/FORCE”规范)
+     1>SimGearScene.lib(ModelRegistry.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(NodeAndDrawableVisitor.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(SGTextureStateAttributeVisitor.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(SGSceneFeatures.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(PrimitiveCollector.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(SGSceneUserData.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(modellib.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(model.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(matlib.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(SGReaderWriterXML.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(SGReaderWriterOptions.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(CopyOp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(SplicingVisitor.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(EffectGeode.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(makeEffect.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(Effect.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(mat.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(SGMaterialAnimation.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(animation.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(SGText.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(particles.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(UpdateOnceCallback.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(EffectBuilder.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(parseBlendFunc.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(TextureBuilder.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(StateAttributeFactory.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(Technique.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(userdata.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(Pass.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(matmodel.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(ConditionNode.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(SGStateAttributeVisitor.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(persparam.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(SGTranslateTransform.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(SGRotateTransform.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(DeletionManager.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(SGScaleTransform.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(SGLightAnimation.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(SGTrackToAnimation.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(shadanim.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(SGPickAnimation.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(SGInteractionAnimation.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(mipmap.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(EffectCullVisitor.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(SGReaderWriterBTG.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(ReaderWriterSTG.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(ReaderWriterSPT.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(obj.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(OptionsReadFileCallback.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(apt_signs.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(SGOceanTile.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(GroundLightManager.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(pt_lights.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(SGOffsetTransform.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(SGBuildingBin.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(TreeBin.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(SGVasiDrawable.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearScene.lib(SGEnlargeBoundingBox.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(sg_path.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(ResourceManager.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(props.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(logstream.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(exception.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(props_io.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(sg_dir.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(easyxml.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(raw_socket.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(BVHStaticTriangle.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(BVHStaticBinary.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(BVHStaticGeometry.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(SGThread.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(condition.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(SGExpression.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(AtomicChangeListener.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(interpolater.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(strutils.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(SGGeodesy.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(SGBinding.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(BVHGroup.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(BVHLineGeometry.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(zfstream.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(newbucket.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(sgstream.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(sg_binobj.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(texcoord.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(PropertyInterpolationMgr.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(BVHStaticLeaf.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(BVHNode.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(commands.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(lowlevel.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(PropertyInterpolator.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(subsystem_mgr.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(easing_functions.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(timestamp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>SimGearCore.lib(SGSmplstat.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(wizard_funcs.obj 中)
+     1>osgDB.lib(osg100-osgDB.dll) : warning LNK4006: "public: void __thiscall std::basic_ofstream<char,struct std::char_traits<char> >::`vbase destructor'(void)" (??_D?$basic_ofstream@DU?$char_traits@D@std@@@std@@QAEXXZ) 已在 AirportBrowser.obj 中定义；已忽略第二个定义
+     1>osgDB.lib(osg100-osgDB.dll) : warning LNK4006: "public: __thiscall std::basic_ofstream<char,struct std::char_traits<char> >::basic_ofstream<char,struct std::char_traits<char> >(char const *,int,int)" (??0?$basic_ofstream@DU?$char_traits@D@std@@@std@@QAE@PBDHH@Z) 已在 AirportBrowser.obj 中定义；已忽略第二个定义
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>LINK : fatal error LNK1123: 转换到 COFF 期间失败: 文件无效或损坏
+     1>已完成生成项目“F:\FlightGear0.5\fgrun-release-3.4.0-build\src\fgrun.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:24.83

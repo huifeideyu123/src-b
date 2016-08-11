@@ -1,0 +1,20 @@
+﻿生成启动时间为 2016/8/4 10:27:26。
+     1>项目“F:\FlightGear0.5\fgrun-release-3.4.0-build\src\Wizard.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Wizard.dir\Debug\Wizard.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"F:\FlightGear0.5\fgrun-release-3.4.0-build\src" /I"F:\FlightGear0.5\fgrun-release-3.4.0\src" /IF:\FlightGear0.5\install\msvc100\OpenSceneGraph\include /IF:\FlightGear0.5\boost_1_44_0 /IF:\FlightGear0.5\3rdParty\include /IF:\FlightGear0.5\install\msvc100\SimGear\include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D NOMINMAX /D _USE_MATH_DEFINES /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D __CRT_NONSTDC_NO_WARNINGS /D _REENTRANT /D ENABLE_NLS /D _DEBUG /D HAVE_CONFIG_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Wizard.dir\Debug\\" /Fd"Wizard.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt wizard.cxx
+         wizard.cxx
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"F:\FlightGear0.5\fgrun-release-3.4.0-build\src\Debug\Wizardd.lib" /NOLOGO Wizard.dir\Debug\wizard.obj
+         Wizard.vcxproj -> F:\FlightGear0.5\fgrun-release-3.4.0-build\src\Debug\Wizardd.lib
+       FinalizeBuildStatus:
+         正在删除文件“Wizard.dir\Debug\Wizard.unsuccessfulbuild”。
+         正在对“Wizard.dir\Debug\Wizard.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\FlightGear0.5\fgrun-release-3.4.0-build\src\Wizard.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.02

@@ -1,0 +1,42 @@
+﻿生成启动时间为 2016/8/11 星期四 11:53:37。
+     1>项目“F:\FlightGear0.5\fgrun-release-3.4.0-build\src\fgrun.vcxproj”在节点 5 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“fgrun.dir\Release\fgrun.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         所有输出均为最新。
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\FlightGear0.5\fgrun-release-3.4.0-build\src\Release\fgrun.exe" /INCREMENTAL:NO /NOLOGO /FORCE:MULTIPLE kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib Release\Wizard.lib Release\Advanced.lib ws2_32.lib F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearScene.lib F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearCore.lib F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearCore.lib F:\FlightGear0.5\3rdParty\lib\zlib.lib ws2_32.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgText.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgDB.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgParticle.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgUtil.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgViewer.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgGA.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osg.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\OpenThreads.lib F:\FlightGear0.5\3rdParty\lib\fltkimages.lib F:\FlightGear0.5\3rdParty\lib\fltkforms.lib F:\FlightGear0.5\3rdParty\lib\fltkgl.lib opengl32.lib F:\FlightGear0.5\3rdParty\lib\fltk.lib wsock32.lib comctl32.lib F:\FlightGear0.5\3rdParty\lib\zlib.lib F:\FlightGear0.5\3rdParty\lib\intl.lib winmm.lib glu32.lib opengl32.lib ws2_32.lib F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearScene.lib F:\FlightGear0.5\install\msvc100\SimGear\lib\SimGearCore.lib F:\FlightGear0.5\3rdParty\lib\zlib.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgText.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgDB.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgParticle.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgUtil.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgViewer.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osgGA.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\osg.lib F:\FlightGear0.5\install\msvc100\OpenSceneGraph\lib\OpenThreads.lib F:\FlightGear0.5\3rdParty\lib\fltkimages.lib F:\FlightGear0.5\3rdParty\lib\fltkforms.lib F:\FlightGear0.5\3rdParty\lib\fltkgl.lib F:\FlightGear0.5\3rdParty\lib\fltk.lib wsock32.lib comctl32.lib F:\FlightGear0.5\3rdParty\lib\intl.lib winmm.lib glu32.lib /MANIFEST /ManifestFile:"fgrun.dir\Release\fgrun.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"F:/FlightGear0.5/fgrun-release-3.4.0-build/src/Release/fgrun.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/FlightGear0.5/fgrun-release-3.4.0-build/src/Release/fgrun.lib" /MACHINE:X86 fgrun.dir\Release\fgrun.res
+         fgrun.dir\Release\wizard_funcs.obj
+         fgrun.dir\Release\advanced_funcs.obj
+         fgrun.dir\Release\AirportBrowser.obj
+         fgrun.dir\Release\AirportTable.obj
+         fgrun.dir\Release\Fl_Table.obj
+         fgrun.dir\Release\Fl_Table_Row.obj
+         fgrun.dir\Release\Fl_OSG.obj
+         fgrun.dir\Release\Fl_Heading_Dial.obj
+         fgrun.dir\Release\main.obj
+         fgrun.dir\Release\io.obj
+         fgrun.dir\Release\fgfsrc.obj
+         fgrun.dir\Release\logwin.obj
+         fgrun.dir\Release\parkingloader.obj
+         fgrun.dir\Release\settings.obj
+         fgrun.dir\Release\util.obj
+         fgrun.dir\Release\run_win32.obj  /machine:X86 
+     1>osgDB.lib(osg100-osgDB.dll) : warning LNK4006: "public: void __thiscall std::basic_ofstream<char,struct std::char_traits<char> >::`vbase destructor'(void)" (??_D?$basic_ofstream@DU?$char_traits@D@std@@@std@@QAEXXZ) 已在 AirportBrowser.obj 中定义；已忽略第二个定义
+     1>osgDB.lib(osg100-osgDB.dll) : warning LNK4006: "public: __thiscall std::basic_ofstream<char,struct std::char_traits<char> >::basic_ofstream<char,struct std::char_traits<char> >(char const *,int,int)" (??0?$basic_ofstream@DU?$char_traits@D@std@@@std@@QAE@PBDHH@Z) 已在 AirportBrowser.obj 中定义；已忽略第二个定义
+     1>F:\FlightGear0.5\fgrun-release-3.4.0-build\src\Release\fgrun.exe : warning LNK4088: 因 /FORCE 选项生成了映像；映像可能不能运行
+         fgrun.vcxproj -> F:\FlightGear0.5\fgrun-release-3.4.0-build\src\Release\fgrun.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\FlightGear0.5\fgrun-release-3.4.0-build\src\Release\fgrun.exe;#1" /manifest fgrun.dir\Release\fgrun.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“fgrun.dir\Release\fgrun.unsuccessfulbuild”。
+         正在对“fgrun.dir\Release\fgrun.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\FlightGear0.5\fgrun-release-3.4.0-build\src\fgrun.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.82
